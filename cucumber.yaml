@@ -1,0 +1,9 @@
+---
+default: -p html -p pretty
+ci: -p json -p pretty
+firefox: BROWSER=firefox
+chrome: BROWSER=chrome
+headless: BROWSER=headless
+html: --format html --out=log/relatorio_testes.html
+json: --format json --out=log/relatorio_testes.json
+pretty: --format pretty 

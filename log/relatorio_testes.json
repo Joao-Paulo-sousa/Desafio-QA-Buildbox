@@ -1,0 +1,92 @@
+[
+  {
+    "id": "home",
+    "uri": "features/home.feature",
+    "keyword": "Funcionalidade",
+    "name": "Home",
+    "description": "    Ao acessar a pagina home do Buger Eats\n    Sendo previamente um usuário interessado no serviço\n    Posso seguir com o registro clicando em Cadastre-se para fazer entregas",
+    "line": 3,
+    "elements": [
+      {
+        "id": "home;acesso-a-pagina-home",
+        "keyword": "Cenario",
+        "name": "Acesso a pagina home",
+        "description": "",
+        "line": 9,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "visitar a pagina home",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/home_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 423018300
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "é apresentado o título \"Seja um parceiro entregador pela Buger Eats\"",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/home_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59521200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@acesso_ao_site",
+            "line": 8
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.37.1/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39900
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.37.1/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22600
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1823629100
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.37.1/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 124735000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
