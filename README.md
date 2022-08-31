@@ -40,7 +40,7 @@ Caso não tenha sido instalado alguma dependência por algum motivo, é necessá
 *No terminal*
 exemplo: cucumber -t @novo_usuario
 ou
-cucumber -t @novo_usuario
+digite apenas "cucumber" no terminal 
 
 (-t @buscar_por_termo_valido)
 
